@@ -1,0 +1,64 @@
+header{
+  padding: 20px 0;
+  
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+
+    .header-left{
+      display: flex;
+      gap: 22px;
+      align-items: center;
+    }
+
+    
+  }
+}
+
+.header-right{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+}
+
+.header-btn{
+  padding: 17px 24px;
+  border-radius: 14px;
+  background: #0075FF;
+  border: none;
+  color: white;
+}
+
+.total-carts{
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px; /* 166.7% */
+}
+
+
+
+.header-link{
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.006px; /* 166.7% */
+}
+
+
+@media(max-width:1000px){
+  header .header-right{
+    display: none;
+  }
+}
+
+@media(max-width:600px){
+  .header-link{
+    display: none;
+  }
+}
